@@ -67,17 +67,17 @@ If you discover any security related issues, please email @example.com instead o
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/{sr-expert}/.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/sr-expert/.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/{sr-expert}//master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/{sr-expert}/.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/{sr-expert}/.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/{sr-expert}/.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/sr-expert//master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/sr-expert/.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/sr-expert/.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/sr-expert/.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/{sr-expert}/
-[link-travis]: https://travis-ci.org/{sr-expert}/
-[link-scrutinizer]: https://scrutinizer-ci.com/g/{sr-expert}//code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/{sr-expert}/
-[link-downloads]: https://packagist.org/packages/{sr-expert}/
+[link-packagist]: https://packagist.org/packages/sr-expert/
+[link-travis]: https://travis-ci.org/sr-expert/
+[link-scrutinizer]: https://scrutinizer-ci.com/g/sr-expert//code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/sr-expert/
+[link-downloads]: https://packagist.org/packages/sr-expert/
 [link-author]: https://github.com/
 [link-contributors]: ../../contributors
