@@ -1,5 +1,5 @@
 {
-    "name": "Yper\\SDK\\",
+    "name": "Yper-SDK",
     "type": "library",
     "description": "ypersdk api php",
     "keywords": [
@@ -31,7 +31,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Yper\\SDK\\": "tests"
+            "Yper\\SDK\\Test\\": "tests"
         }
     },
     "scripts": {
