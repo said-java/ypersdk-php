@@ -1,6 +1,6 @@
 # 
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Latest Version on Packagist][ico-version]](https://packagist.org/packages/sr-expert/ypersdk-php)
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]](https://travis-ci.com/github/sr-expert/ypersdk-php)
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
