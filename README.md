@@ -1,5 +1,5 @@
 # 
-[![Latest Stable Version](https://poser.pugx.org/sr-expert/ypersdk-php/v)](//packagist.org/packages/sr-expert/ypersdk-php)
+[![Latest Stable Version](https://poser.pugx.org/sr-expert/ypersdk-php/v/)](//packagist.org/packages/sr-expert/ypersdk-php)
 [![Latest Unstable Version](https://poser.pugx.org/sr-expert/ypersdk-php/v/unstable)](//packagist.org/packages/sr-expert/ypersdk-php)
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]](https://travis-ci.com/github/sr-expert/ypersdk-php)
@@ -67,7 +67,7 @@ If you discover any security related issues, please email @example.com instead o
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://poser.pugx.org/sr-expert/ypersdk-php/v
+[ico-version]: https://poser.pugx.org/sr-expert/ypersdk-php/v/
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://travis-ci.com/sr-expert/ypersdk-php.svg?branch=master
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/sr-expert/.svg?style=flat-square
