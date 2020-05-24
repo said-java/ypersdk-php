@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
+[![Build Status][ico-travis]](https://travis-ci.com/github/sr-expert/ypersdk-php)
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -69,13 +69,13 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [ico-version]: https://img.shields.io/packagist/v/sr-expert/.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/sr-expert//master.svg?style=flat-square
+[ico-travis]: https://travis-ci.com/sr-expert/ypersdk-php.svg?branch=master
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/sr-expert/.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/sr-expert/.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/sr-expert/.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/sr-expert/
-[link-travis]: https://travis-ci.org/sr-expert/
+[link-packagist]: https://packagist.org/packages/sr-expert/ypersdk-php
+[link-travis]: https://travis-ci.com/github/sr-expert/ypersdk-php
 [link-scrutinizer]: https://scrutinizer-ci.com/g/sr-expert//code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/sr-expert/
 [link-downloads]: https://packagist.org/packages/sr-expert/
