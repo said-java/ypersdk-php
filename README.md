@@ -3,7 +3,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/sr-expert/ypersdk-php/v/unstable)](//packagist.org/packages/sr-expert/ypersdk-php)
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]](https://travis-ci.com/github/sr-expert/ypersdk-php)
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
+[![Coverage Status][ico-scrutinizer]](https://scrutinizer-ci.com/g/sr-expert/ypersdk-php/)
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads](https://poser.pugx.org/sr-expert/ypersdk-php/downloads)](//packagist.org/packages/sr-expert/ypersdk-php)
 
