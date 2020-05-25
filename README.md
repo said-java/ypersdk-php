@@ -30,7 +30,7 @@ vendor/
 Via Composer
 
 ``` bash
-$ composer require srexpert/ypersdk
+$ composer require sr-expert/ypersdk-php
 ```
 
 ## Usage
