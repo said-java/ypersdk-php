@@ -7,22 +7,7 @@
 [![Quality Score](https://scrutinizer-ci.com/g/sr-expert/ypersdk-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sr-expert/ypersdk-php/badges/quality-score.png?b=master)
 [![Total Downloads](https://poser.pugx.org/sr-expert/ypersdk-php/downloads)](//packagist.org/packages/sr-expert/ypersdk-php)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
-
-## Structure
-
-If any of the following are applicable to your project, then the directory structure should follow industry best practices by being named the following.
-
-```
-bin/        
-build/
-docs/
-config/
-src/
-tests/
-vendor/
-```
+Yper SDK php to connect with yper api shipping methode.
 
 
 ## Install
