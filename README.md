@@ -4,7 +4,7 @@
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]](https://travis-ci.com/github/sr-expert/ypersdk-php)
 [![Coverage Status][ico-scrutinizer]](https://scrutinizer-ci.com/g/sr-expert/ypersdk-php/)
-[![Quality Score][ico-code-quality]][link-code-quality]
+[![Quality Score](https://scrutinizer-ci.com/g/sr-expert/ypersdk-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sr-expert/ypersdk-php/badges/quality-score.png?b=master)
 [![Total Downloads](https://poser.pugx.org/sr-expert/ypersdk-php/downloads)](//packagist.org/packages/sr-expert/ypersdk-php)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
