@@ -12,7 +12,7 @@ namespace Yper\SDK\Service;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
-use Yper\SDK\Helper\validateToken;
+use Yper\SDK\Helper\ValidateToken;
 use Yper\SDK\Exceptions\YperException;
 use Yper\SDK\ApiClient;
 

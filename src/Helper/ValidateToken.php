@@ -12,11 +12,9 @@ use InvalidArgumentException;
 use Yper\SDK\Exceptions\YperException;
 
 /**
- * Class validateToken
- *
- * @package Yper\SDK\Helper
+ * Class ValidateToken
  */
-class validateToken
+class ValidateToken
 {
     /**
      * @var string The API access token 
