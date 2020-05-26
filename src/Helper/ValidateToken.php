@@ -17,12 +17,16 @@ use Yper\SDK\Exceptions\YperException;
 class ValidateToken
 {
     /**
-     * @var string The API access token 
+     * The API access token
+     *
+     * @var string
      */
     private static $token = null;
 
     /**
-     * @var string The instance token, settable once per new instance 
+     * The instance token, settable once per new instance
+     *
+     * @var string
      */
     private $instanceToken;
 
