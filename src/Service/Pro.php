@@ -40,7 +40,10 @@ class Pro extends AbstractService
      */
     public function getRetailpointMissionTemplates()
     {
-        return $this->get("/pro/" . $this->getProId() . "/retailpoint/" . $this->getRetailPointId() . "/mission_template");
+        return $this->requestApi(
+            "GET",
+            "/pro/" . $this->getProId() . "/retailpoint/" . $this->getRetailPointId() . "/mission_template"
+        );
     }
 
 

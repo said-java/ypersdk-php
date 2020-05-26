@@ -27,10 +27,10 @@ class AbstractService extends ApiClient
     /**
      * request api
      *
-     * @param  string $method
-     * @param  string $path
-     * @param  array  $paramGet
-     * @param  array  $paramPost
+     * @param string $method
+     * @param string $path
+     * @param array $paramGet
+     * @param array $paramPost
      * @return mixed
      * @throws YperException
      * @throws GuzzleException
@@ -44,16 +44,18 @@ class AbstractService extends ApiClient
             $client = new Client;
             $paramPost = json_encode($paramPost, true);
             $response = $client->request(
-                $method, $url, [
-                'headers' => [
-                    'Authorization' => 'Bearer ' . $accessToken,
-                    'X-Request-Timestamp' => time(),
-                    'Accept' => 'application/json',
-                    'Content-Type' => 'application/json'
+                $method,
+                $url,
+                [
+                    'headers' => [
+                        'Authorization' => 'Bearer ' . $accessToken,
+                        'X-Request-Timestamp' => time(),
+                        'Accept' => 'application/json',
+                        'Content-Type' => 'application/json'
 
-                ],
-                'query' => $paramGet,
-                'body' => $paramPost
+                    ],
+                    'query' => $paramGet,
+                    'body' => $paramPost
 
                 ]
             );
@@ -61,8 +63,8 @@ class AbstractService extends ApiClient
             if ($response->getStatusCode() == 200) {
                 $responseBody = $response->getBody(true);
                 /**
- * @var string $responseArr 
-*/
+                 * @var string $responseArr
+                 */
                 $responseArr = json_decode($responseBody, true);
                 return $responseArr;
             } else {

@@ -29,7 +29,4 @@ class Mission extends AbstractService
     {
         return $this->requestApi("POST", sprintf("/mission/%s/ready", $missionId));
     }
-
 }
-
-

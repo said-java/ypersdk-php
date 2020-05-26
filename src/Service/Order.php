@@ -50,4 +50,3 @@ class Order extends AbstractService
         return $this->requestApi("POST", '/order/' . $orderId . '/pay');
     }
 }
-
