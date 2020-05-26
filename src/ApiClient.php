@@ -78,7 +78,7 @@ class ApiClient
      *
      * @var string
      */
-    private $accessToken;
+    private $accessToken = null;
 
     /**
      * ApiClient constructor.
