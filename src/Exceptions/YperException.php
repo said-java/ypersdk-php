@@ -6,6 +6,7 @@
  * @package  Yper\SDK
  * @author   rajafallah@gmail.com
  */
+
 namespace Yper\SDK\Exceptions;
 
 use Exception;
