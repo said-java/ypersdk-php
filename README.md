@@ -3,7 +3,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/sr-expert/ypersdk-php/v/unstable)](//packagist.org/packages/sr-expert/ypersdk-php)
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]](https://travis-ci.com/github/sr-expert/ypersdk-php)
-[![Coverage Status][ico-scrutinizer]](https://scrutinizer-ci.com/g/sr-expert/ypersdk-php/)
+[![Coverage Status](https://scrutinizer-ci.com/g/sr-expert/ypersdk-php/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/g/sr-expert/ypersdk-php/badges/code-intelligence.svg?b=master)
 [![Quality Score](https://scrutinizer-ci.com/g/sr-expert/ypersdk-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sr-expert/ypersdk-php/badges/quality-score.png?b=master)
 [![Total Downloads](https://poser.pugx.org/sr-expert/ypersdk-php/downloads)](//packagist.org/packages/sr-expert/ypersdk-php)
 
