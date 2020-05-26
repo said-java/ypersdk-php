@@ -1,6 +1,14 @@
 <?php
+/**
+ * Sahadina
+ *
+ * @category YperSDK
+ * @package  Yper\SDK
+ * @author   rajafallah@gmail.com
+ */
 namespace Yper\SDK\Helper;
 
+use InvalidArgumentException;
 use Yper\SDK\Exceptions\YperException;
 
 /**
@@ -46,10 +54,10 @@ class validateToken
     private static function validateToken($token)
     {
         if (!is_string($token)) {
-            throw new \InvalidArgumentException('Token is not a string.');
+            throw new InvalidArgumentException('Token is not a string.');
         }
         if (strlen($token) < 4) {
-            throw new \InvalidArgumentException('Token "' . $token . '" is too short, and thus invalid.');
+            throw new InvalidArgumentException('Token "' . $token . '" is too short, and thus invalid.');
         }
         return true;
     }

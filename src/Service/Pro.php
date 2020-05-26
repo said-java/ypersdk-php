@@ -1,4 +1,11 @@
 <?php
+/**
+ * Sahadina
+ *
+ * @category YperSDK
+ * @package  Yper\SDK
+ * @author   rajafallah@gmail.com
+ */
 
 namespace Yper\SDK\Service;
 
@@ -7,7 +14,7 @@ class Pro extends AbstractService
 
     /**
      * Get a list of retailpoints
-     * @return mixedget
+     * @return mixed
      */
     public function getRetailpoints()
     {

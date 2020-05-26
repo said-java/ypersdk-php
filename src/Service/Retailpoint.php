@@ -1,9 +1,18 @@
 <?php
-
+/**
+ * Sahadina
+ *
+ * @category YperSDK
+ * @package  Yper\SDK
+ * @author   rajafallah@gmail.com
+ */
 
 namespace Yper\SDK\Service;
 
-
+/**
+ * Class Retailpoint
+ * @package Yper\SDK\Service
+ */
 class Retailpoint extends AbstractService
 {
 
@@ -12,7 +21,12 @@ class Retailpoint extends AbstractService
      */
     public function getListRetailPoint($enabled = true)
     {
-        return $this->requestApi("GET", "/retailpoint/" . $this->getRetailPointId() . "/", ["enabled" => $enabled], ["enabled" => $enabled]);
+        return $this->requestApi(
+            "GET",
+            "/retailpoint/" . $this->getRetailPointId() . "/",
+            ["enabled" => $enabled],
+            ["enabled" => $enabled]
+        );
     }
 
     /**
@@ -30,6 +44,6 @@ class Retailpoint extends AbstractService
      */
     public function getMissionTemplates()
     {
-     return $this->requestApi("GET", "/retailpoint/".$this->getRetailPointId()."/mission_template");
+        return $this->requestApi("GET", "/retailpoint/" . $this->getRetailPointId() . "/mission_template");
     }
 }

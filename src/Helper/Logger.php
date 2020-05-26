@@ -1,9 +1,25 @@
 <?php
+/**
+ * Sahadina
+ *
+ * @category YperSDK
+ * @package  Yper\SDK
+ * @author   rajafallah@gmail.com
+ */
 namespace Yper\SDK\Helper;
 
+/**
+ * Class Logger
+ * @package Yper\SDK\Helper
+ */
 class Logger
 {
 
-    public static function logState(){}
-    protected static function log(){}
+    /**
+     * @return string
+     */
+    protected static function log()
+    {
+        return "comming soon";
+    }
 }
