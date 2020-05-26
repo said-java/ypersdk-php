@@ -18,6 +18,7 @@ use Yper\SDK\ApiClient;
 
 /**
  * Class AbstractService
+ *
  * @package Yper\SDK\Service
  */
 class AbstractService extends ApiClient
@@ -26,10 +27,10 @@ class AbstractService extends ApiClient
     /**
      * request api
      *
-     * @param $method
-     * @param $path
-     * @param array $paramGet
-     * @param array $paramPost
+     * @param  string $method
+     * @param  string $path
+     * @param  array  $paramGet
+     * @param  array  $paramPost
      * @return mixed
      * @throws YperException
      * @throws GuzzleException
@@ -42,7 +43,8 @@ class AbstractService extends ApiClient
         try {
             $client = new Client;
             $paramPost = json_encode($paramPost, true);
-            $response = $client->request($method, $url, [
+            $response = $client->request(
+                $method, $url, [
                 'headers' => [
                     'Authorization' => 'Bearer ' . $accessToken,
                     'X-Request-Timestamp' => time(),
@@ -53,11 +55,14 @@ class AbstractService extends ApiClient
                 'query' => $paramGet,
                 'body' => $paramPost
 
-            ]);
+                ]
+            );
 
             if ($response->getStatusCode() == 200) {
                 $responseBody = $response->getBody(true);
-                /** @var string $responseArr */
+                /**
+ * @var string $responseArr 
+*/
                 $responseArr = json_decode($responseBody, true);
                 return $responseArr;
             } else {

@@ -14,6 +14,7 @@ use Yper\SDK\Exceptions\YperException;
 
 /**
  * Class General
+ *
  * @package Yper\SDK\Service
  */
 class General extends AbstractService

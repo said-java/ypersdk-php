@@ -10,6 +10,7 @@ namespace Yper\SDK\Helper;
 
 /**
  * Class Logger
+ *
  * @package Yper\SDK\Helper
  */
 class Logger

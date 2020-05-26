@@ -12,6 +12,7 @@ use Exception;
 
 /**
  * Class YperException
+ *
  * @package Yper\SDK\Exceptions
  */
 class YperException extends Exception

@@ -11,6 +11,7 @@ namespace Yper\SDK\Service;
 
 /**
  * Class Retailpoint
+ *
  * @package Yper\SDK\Service
  */
 class Retailpoint extends AbstractService
@@ -30,7 +31,7 @@ class Retailpoint extends AbstractService
     }
 
     /**
-     * @param array $paramsPost
+     * @param  array $paramsPost
      * @return bool|string
      * @throws \Yper\SDK\Exceptions\YperException
      */

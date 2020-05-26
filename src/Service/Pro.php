@@ -14,6 +14,7 @@ class Pro extends AbstractService
 
     /**
      * Get a list of retailpoints
+     *
      * @return mixed
      */
     public function getRetailpoints()
@@ -23,6 +24,7 @@ class Pro extends AbstractService
 
     /**
      * Create a new order for this pro
+     *
      * @return string The orderId
      */
     public function createOrder()
@@ -33,6 +35,7 @@ class Pro extends AbstractService
 
     /**
      * Get a list of possible MissionTemplates for a specific retailpoint
+     *
      * @return mixed
      */
     public function getRetailpointMissionTemplates()
@@ -42,7 +45,7 @@ class Pro extends AbstractService
 
 
     /**
-     * @param array $parmasPost
+     * @param  array $parmasPost
      * @return bool|string
      * @throws \Yper\SDK\Exceptions\YperException
      */
@@ -54,7 +57,8 @@ class Pro extends AbstractService
 
     /**
      * Get informations about a delivery
-     * @param $mission_id
+     *
+     * @param  $mission_id
      * @return mixed
      */
     public function getDelivery($mission_id)
@@ -65,7 +69,8 @@ class Pro extends AbstractService
 
     /**
      * Get informations about a delivery cancelation (possible & fees associated)
-     * @param $mission_id
+     *
+     * @param  $mission_id
      * @return mixed
      */
     public function getCancelDelivery($mission_id)
@@ -76,7 +81,8 @@ class Pro extends AbstractService
 
     /**
      * Validate a delivery cancelation
-     * @param $mission_id
+     *
+     * @param  $mission_id
      * @return mixed
      */
     public function postCancelDelivery($mission_id)

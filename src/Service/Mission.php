@@ -14,6 +14,7 @@ use Yper\SDK\Exceptions\YperException;
 
 /**
  * Class Mission
+ *
  * @package Yper\SDK\Service
  */
 class Mission extends AbstractService

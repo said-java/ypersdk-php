@@ -13,18 +13,23 @@ use Yper\SDK\Exceptions\YperException;
 
 /**
  * Class validateToken
+ *
  * @package Yper\SDK\Helper
  */
 class validateToken
 {
-    /** @var string The API access token */
+    /**
+     * @var string The API access token 
+     */
     private static $token = null;
 
-    /** @var string The instance token, settable once per new instance */
+    /**
+     * @var string The instance token, settable once per new instance 
+     */
     private $instanceToken;
 
     /**
-     * @param string|null $token The API access token
+     * @param  string|null $token The API access token
      * @throws YperException When no token is provided
      */
     public function __construct($token = null)
@@ -42,7 +47,8 @@ class validateToken
     }
     /**
      * Sets the token for all future new instances
-     * @param $token string The API access token
+     *
+     * @param  $token string The API access token
      * @return void
      */
     public static function setToken($token)

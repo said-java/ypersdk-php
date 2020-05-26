@@ -10,6 +10,7 @@ namespace Yper\SDK\Service;
 
 /**
  * Class Order
+ *
  * @package Yper\SDK\Service
  */
 class Order extends AbstractService
@@ -17,8 +18,8 @@ class Order extends AbstractService
     /**
      * Add a delivery to this order
      *
-     * @param $orderId
-     * @param array $paramsPost
+     * @param  $orderId
+     * @param  array $paramsPost
      * @return bool|string
      * @throws \Yper\SDK\Exceptions\YperException|\GuzzleHttp\Exception\GuzzleException
      */
@@ -29,6 +30,7 @@ class Order extends AbstractService
 
     /**
      * Validate this order (it cannot be edited after)
+     *
      * @return mixed
      */
     public function validate($orderId)
@@ -39,7 +41,7 @@ class Order extends AbstractService
     /**
      * Pay this order
      *
-     * @param $orderId
+     * @param  $orderId
      * @return bool|string
      * @throws \Yper\SDK\Exceptions\YperException
      */
