@@ -57,7 +57,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-travis]: https://travis-ci.com/sr-expert/ypersdk-php.svg?branch=master
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/sr-expert/.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/sr-expert/.svg?style=flat-square
-[ico-downloads]: https://poser.pugx.org/sr-expert/ypersdk-php/downloads)
+[ico-downloads]: https://poser.pugx.org/sr-expert/ypersdk-php/downloads
 
 [link-packagist]: https://packagist.org/packages/sr-expert/ypersdk-php
 [link-travis]: https://travis-ci.com/github/sr-expert/ypersdk-php
