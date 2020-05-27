@@ -21,8 +21,30 @@ $ composer require sr-expert/ypersdk-php
 ## Usage
 
 ``` php
-$skeleton = new yper();
-echo $skeleton->echoPhrase('Hello, League!');
+require "../vendor/autoload.php";
+
+$api=new Yper\SDK\ApiClient(
+               "base_url",
+               "client_id",
+               "client_secret",
+               "scope",
+               "grant_type",
+               "pro_id",
+               "pro_secret_token",
+               "retail_point_id"
+    );
+$sevice = new Yper\SDK\Service\Mission($api);
+$result = $sevice->getMissionTemplates();
+print_r($result);
+
+#for other service you can use 
+
+$sevice = new Yper\SDK\Service\xxx($api);
+
+#if path or methode not in service you ca use directly 
+
+$api->requestApi("GET|POST", $path, paramGet = array(), $paramPost = array());
+
 ```
 
 ## Change log

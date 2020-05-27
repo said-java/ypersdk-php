@@ -21,8 +21,21 @@ use Yper\SDK\ApiClient;
  *
  * @package Yper\SDK\Service
  */
-class AbstractService extends ApiClient
+class AbstractService
 {
+    /**
+     * @var ApiClient
+     */
+    private $apiClient;
+
+    /**
+     * AbstractService constructor.
+     * @param ApiClient $apiClient
+     */
+    public function __construct(ApiClient $apiClient)
+    {
+        $this->apiClient = $apiClient;
+    }
 
     /**
      * request api
@@ -37,9 +50,9 @@ class AbstractService extends ApiClient
      */
     public function requestApi($method, $path, $paramGet = array(), $paramPost = array())
     {
-        $accessToken = $this->getAuthToken();
+        $accessToken = $this->apiClient->getAuthToken();
         new validateToken($accessToken);
-        $url = $this->getBaseUrl() . $path;
+        $url = $this->apiClient->getBaseUrl() . $path;
         try {
             $client = new Client;
             $paramPost = json_encode($paramPost, true);
@@ -73,5 +86,21 @@ class AbstractService extends ApiClient
         } catch (Exception $e) {
             throw new YperException($e->getMessage());
         }
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getProId()
+    {
+        return $this->apiClient->getProId();
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getRetailPointId()
+    {
+        return $this->apiClient->getRetailPointId();
     }
 }

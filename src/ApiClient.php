@@ -101,8 +101,8 @@ class ApiClient
         $scope,
         $grantType,
         $proId,
-        $retailPointId,
-        $proSecretToken
+        $proSecretToken,
+        $retailPointId
     ) {
         $this->baseUrl = $baseUrl;
         $this->clientId = $clientId;

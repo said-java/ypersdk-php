@@ -25,7 +25,7 @@ class Retailpoint extends AbstractService
         return $this->requestApi(
             "GET",
             "/retailpoint/" . $this->getRetailPointId() . "/",
-            ["enabled" => $enabled],
+            [],
             ["enabled" => $enabled]
         );
     }
