@@ -8,6 +8,8 @@
 [![Total Downloads](https://poser.pugx.org/sr-expert/ypersdk-php/downloads)](//packagist.org/packages/sr-expert/ypersdk-php)
 
 Yper SDK php to connect with yper api shipping methode.
+for all information check this link
+https://docs.yper.io/
 
 
 ## Install
@@ -67,7 +69,7 @@ If you discover any security related issues, please email @example.com instead o
 
 ## Credits
 
-- [][link-author]
+- rajafallah@gmailcom 
 - [All Contributors][link-contributors]
 
 ## License
