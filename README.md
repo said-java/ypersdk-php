@@ -35,7 +35,7 @@ $api=new Yper\SDK\ApiClient(
                "pro_secret_token",
                "retail_point_id"
     );
-$sevice = new Yper\SDK\Service\Mission($api);
+$sevice = new Yper\SDK\Service\Retailpoint($api);
 $result = $sevice->getMissionTemplates();
 print_r($result);
 
